@@ -1,52 +1,171 @@
-# Dependency Discovery Deck
+# Dependency Discovery & Destruction Deck
+
+<p align="center">
+  <img src="Cards/Discovery/Back%2000%20Cover.jpg" alt="Dependency Discovery Deck Cover" width="300" style="border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.15); margin-right: 15px;"/>
+  <img src="Cards/Destruction/Title.jpg" alt="Dependency Destruction Deck Title" width="300" style="border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.15);"/>
+</p>
+
+<p align="center">
+  <a href="https://agilegames.etsy.com/listing/1712190266"><img src="https://img.shields.io/badge/Etsy%20Shop-Purchase%20Deck-orange?logo=etsy&style=flat-square" alt="Etsy Shop"></a>
+  <img src="https://img.shields.io/badge/Deck%20Version-2.0-blue?style=flat-square" alt="Deck Version 2.0">
+  <img src="https://img.shields.io/badge/License-GPL%203.0-green?style=flat-square" alt="GPL 3.0 License">
+  <img src="https://img.shields.io/badge/Platform-Miro%20Compatible-yellow?style=flat-square" alt="Miro Compatible">
+</p>
+
+---
 
 ## Overview
 
-The Dependency Discovery Deck is a set of game cards designed to facilitate dependency detection in scaled Agile setups. Version 2.0 of the deck is now available, offering a novel approach to enhancing team communication and fostering psychological safety during meetings such as Backlog Refinement or PI Planning.
+The **Dependency Discovery & Destruction Deck** is a gamified toolset designed to facilitate dependency identification and resolution in scaled Agile setups. 
 
-## Features
+Version 2.0 introduces the **Dependency Destruction Deck** alongside the original **Dependency Discovery Deck**, providing a complete end-to-end framework to:
+* **Gamify** the dependency detection process.
+* **Surface** hidden blockers early in ceremonies like Backlog Refinement, PI Planning, and Scrum of Scrums.
+* **Resolve** dependencies immediately using concrete, actionable "destruction" strategies.
+* **Boost psychological safety** within teams by encouraging collaborative discussions rather than pointing fingers.
 
-- Gamify your Dependency Detection process.
-- Boost psychological safety within your team.
-- Enhance structure and communication during meetings.
-- Based on expert interviews, primarily conducted at MHP - A Porsche Company.
+The concepts are based on expert industry interviews, primarily conducted at MHP – A Porsche Company.
 
-## Changes from Version 1.0 to Version 2.0
+---
 
-- Four Backgrounds for printing the cards.
-- A card with rules.
-- More focused design and descriptions.
+## The Dual-Deck System
 
-## Usage
+Surfacing dependencies is only half the battle. To run efficient agile ceremonies, you must know how to eliminate or bypass them.
 
-There are multiple ways to incorporate the Dependency Discovery Deck into your team meetings:
+```mermaid
+graph TD
+    A[Start: Refine User Story / Feature] --> B[1. Discovery Phase]
+    B --> C{Any cards match story requirements?}
+    C -- Yes --> D[Identify Dependency Card]
+    C -- No --> E[Clean Run: Story Ready]
+    D --> F[2. Destruction Phase]
+    F --> G[Select Destruction Strategy Card]
+    G --> H[Assign Action Item & Owner]
+    H --> I[Resolution: Dependency Destroyed]
+```
 
-1. **Individual Selection** - Allow each team member to choose a card with a dependency on a feature or user story that will have an impact on their work. This encourages individual ownership and engagement in the dependency detection process.
+### 1. The Discovery Deck
+A set of **24 categories** representing potential sources of dependencies (e.g., infrastructure, security, data, external vendors). Use these to scan your user stories and highlight what might hold you back.
 
-2. **Collective Removal** - Have the team collectively remove all the cards for a feature that doesn't have dependencies. This can streamline discussions by focusing attention on features with actual dependencies, making meetings more efficient.
+### 2. The Destruction Deck
+A set of **18 strategic cards** offering classic and innovative ways to resolve, bypass, or "destroy" the identified dependencies (e.g., Mocking, Technical Spikes, Re-Teaming, Splitting Requirements).
 
-3. **Pair Collaboration** - Foster collaboration by having two team members share one set of cards. This encourages discussion, negotiation, and shared understanding of dependencies, ultimately strengthening teamwork and collaboration within the group.
+---
 
-Feel free to experiment with these options to find the approach that works best for your team dynamics and meeting objectives.
+## Card Catalogs
 
-## Future Updates
+Click on any card name below to view the optimized high-resolution image asset.
 
-- Expansion of card set with additional cards.
-- Improvement of card design for better usability.
-- Introduction of solution cards to address identified dependencies.
+### Discovery Deck Catalog (24 Cards)
+
+| # | Card Name | Focus Area | Preview |
+| :-: | :--- | :--- | :--- |
+| **00** | **Manual & Rules** | Instructions | <a href="Cards/Discovery/00%20manual.jpg"><img src="Cards/Discovery/00%20manual.jpg" width="60" alt="Manual & Rules" style="background-color: transparent; padding: 2px; border-radius: 4px; border: 1px solid #30363d; display: block; margin: 0 auto;"/></a> |
+| **01** | **Infrastructure** | Technical | <a href="Cards/Discovery/01%20Infrastructure.jpg"><img src="Cards/Discovery/01%20Infrastructure.jpg" width="60" alt="Infrastructure" style="background-color: transparent; padding: 2px; border-radius: 4px; border: 1px solid #30363d; display: block; margin: 0 auto;"/></a> |
+| **02** | **UI UX Concept** | Design | <a href="Cards/Discovery/02%20UI%20UX%20Concept.jpg"><img src="Cards/Discovery/02%20UI%20UX%20Concept.jpg" width="60" alt="UI UX Concept" style="background-color: transparent; padding: 2px; border-radius: 4px; border: 1px solid #30363d; display: block; margin: 0 auto;"/></a> |
+| **03** | **Data** | Architecture | <a href="Cards/Discovery/03%20Data.jpg"><img src="Cards/Discovery/03%20Data.jpg" width="60" alt="Data" style="background-color: transparent; padding: 2px; border-radius: 4px; border: 1px solid #30363d; display: block; margin: 0 auto;"/></a> |
+| **04** | **Architecture Decision** | Architecture | <a href="Cards/Discovery/04%20Architecture%20Decision.jpg"><img src="Cards/Discovery/04%20Architecture%20Decision.jpg" width="60" alt="Architecture Decision" style="background-color: transparent; padding: 2px; border-radius: 4px; border: 1px solid #30363d; display: block; margin: 0 auto;"/></a> |
+| **05** | **Strategic Decision** | Management | <a href="Cards/Discovery/05%20Strategic%20Decision.jpg"><img src="Cards/Discovery/05%20Strategic%20Decision.jpg" width="60" alt="Strategic Decision" style="background-color: transparent; padding: 2px; border-radius: 4px; border: 1px solid #30363d; display: block; margin: 0 auto;"/></a> |
+| **06** | **Security or Compliance** | Compliance | <a href="Cards/Discovery/06%20Security%20or%20Compliance.jpg"><img src="Cards/Discovery/06%20Security%20or%20Compliance.jpg" width="60" alt="Security or Compliance" style="background-color: transparent; padding: 2px; border-radius: 4px; border: 1px solid #30363d; display: block; margin: 0 auto;"/></a> |
+| **07** | **Technology** | Technical | <a href="Cards/Discovery/07%20Technology.jpg"><img src="Cards/Discovery/07%20Technology.jpg" width="60" alt="Technology" style="background-color: transparent; padding: 2px; border-radius: 4px; border: 1px solid #30363d; display: block; margin: 0 auto;"/></a> |
+| **08** | **Direct Client Input** | Requirements | <a href="Cards/Discovery/08%20Direct%20Client%20Input.jpg"><img src="Cards/Discovery/08%20Direct%20Client%20Input.jpg" width="60" alt="Direct Client Input" style="background-color: transparent; padding: 2px; border-radius: 4px; border: 1px solid #30363d; display: block; margin: 0 auto;"/></a> |
+| **09** | **Specialist Knowledge** | Team / Skills | <a href="Cards/Discovery/09%20Specialist%20Knowledge.jpg"><img src="Cards/Discovery/09%20Specialist%20Knowledge.jpg" width="60" alt="Specialist Knowledge" style="background-color: transparent; padding: 2px; border-radius: 4px; border: 1px solid #30363d; display: block; margin: 0 auto;"/></a> |
+| **10** | **Essential Tools** | Technical | <a href="Cards/Discovery/10%20Essential%20Tools.jpg"><img src="Cards/Discovery/10%20Essential%20Tools.jpg" width="60" alt="Essential Tools" style="background-color: transparent; padding: 2px; border-radius: 4px; border: 1px solid #30363d; display: block; margin: 0 auto;"/></a> |
+| **11** | **Budget** | Finance | <a href="Cards/Discovery/11%20Budget.jpg"><img src="Cards/Discovery/11%20Budget.jpg" width="60" alt="Budget" style="background-color: transparent; padding: 2px; border-radius: 4px; border: 1px solid #30363d; display: block; margin: 0 auto;"/></a> |
+| **12** | **Authorization or Access** | Compliance | <a href="Cards/Discovery/12%20Authorization%20or%20Access.jpg"><img src="Cards/Discovery/12%20Authorization%20or%20Access.jpg" width="60" alt="Authorization or Access" style="background-color: transparent; padding: 2px; border-radius: 4px; border: 1px solid #30363d; display: block; margin: 0 auto;"/></a> |
+| **13** | **External Vendor** | Third-party | <a href="Cards/Discovery/13%20External%20Vendor.jpg"><img src="Cards/Discovery/13%20External%20Vendor.jpg" width="60" alt="External Vendor" style="background-color: transparent; padding: 2px; border-radius: 4px; border: 1px solid #30363d; display: block; margin: 0 auto;"/></a> |
+| **14** | **External System** | Technical | <a href="Cards/Discovery/14%20External%20System.jpg"><img src="Cards/Discovery/14%20External%20System.jpg" width="60" alt="External System" style="background-color: transparent; padding: 2px; border-radius: 4px; border: 1px solid #30363d; display: block; margin: 0 auto;"/></a> |
+| **15** | **External Expert** | Team / Skills | <a href="Cards/Discovery/15%20External%20Expert.jpg"><img src="Cards/Discovery/15%20External%20Expert.jpg" width="60" alt="External Expert" style="background-color: transparent; padding: 2px; border-radius: 4px; border: 1px solid #30363d; display: block; margin: 0 auto;"/></a> |
+| **16** | **Stakeholder Input** | Requirements | <a href="Cards/Discovery/16%20Stakeholder%20Input.jpg"><img src="Cards/Discovery/16%20Stakeholder%20Input.jpg" width="60" alt="Stakeholder Input" style="background-color: transparent; padding: 2px; border-radius: 4px; border: 1px solid #30363d; display: block; margin: 0 auto;"/></a> |
+| **17** | **Review Or Approval** | Process | <a href="Cards/Discovery/17%20Review%20Or%20Approval.jpg"><img src="Cards/Discovery/17%20Review%20Or%20Approval.jpg" width="60" alt="Review Or Approval" style="background-color: transparent; padding: 2px; border-radius: 4px; border: 1px solid #30363d; display: block; margin: 0 auto;"/></a> |
+| **18** | **Unclear Requirements** | Requirements | <a href="Cards/Discovery/18%20Unclear%20Requirements.jpg"><img src="Cards/Discovery/18%20Unclear%20Requirements.jpg" width="60" alt="Unclear Requirements" style="background-color: transparent; padding: 2px; border-radius: 4px; border: 1px solid #30363d; display: block; margin: 0 auto;"/></a> |
+| **19** | **External Team** | Team / Collaboration | <a href="Cards/Discovery/19%20External%20Team.jpg"><img src="Cards/Discovery/19%20External%20Team.jpg" width="60" alt="External Team" style="background-color: transparent; padding: 2px; border-radius: 4px; border: 1px solid #30363d; display: block; margin: 0 auto;"/></a> |
+| **20** | **Internal Team** | Team / Collaboration | <a href="Cards/Discovery/20%20Internal%20Team.jpg"><img src="Cards/Discovery/20%20Internal%20Team.jpg" width="60" alt="Internal Team" style="background-color: transparent; padding: 2px; border-radius: 4px; border: 1px solid #30363d; display: block; margin: 0 auto;"/></a> |
+| **21** | **User Story** | Process | <a href="Cards/Discovery/21%20User%20Story.jpg"><img src="Cards/Discovery/21%20User%20Story.jpg" width="60" alt="User Story" style="background-color: transparent; padding: 2px; border-radius: 4px; border: 1px solid #30363d; display: block; margin: 0 auto;"/></a> |
+| **22** | **Technical Integration** | Technical | <a href="Cards/Discovery/22%20Technical%20Integration.jpg"><img src="Cards/Discovery/22%20Technical%20Integration.jpg" width="60" alt="Technical Integration" style="background-color: transparent; padding: 2px; border-radius: 4px; border: 1px solid #30363d; display: block; margin: 0 auto;"/></a> |
+| **22** | **Testing** | Technical | <a href="Cards/Discovery/22%20Testing.jpg"><img src="Cards/Discovery/22%20Testing.jpg" width="60" alt="Testing" style="background-color: transparent; padding: 2px; border-radius: 4px; border: 1px solid #30363d; display: block; margin: 0 auto;"/></a> |
+| **23** | **Workflow Integration** | Process | <a href="Cards/Discovery/23%20Workflow%20Integration.jpg"><img src="Cards/Discovery/23%20Workflow%20Integration.jpg" width="60" alt="Workflow Integration" style="background-color: transparent; padding: 2px; border-radius: 4px; border: 1px solid #30363d; display: block; margin: 0 auto;"/></a> |
+| **24** | **Data Privacy Concern** | Compliance | <a href="Cards/Discovery/24%20Data%20Privacy%20Concern.jpg"><img src="Cards/Discovery/24%20Data%20Privacy%20Concern.jpg" width="60" alt="Data Privacy Concern" style="background-color: transparent; padding: 2px; border-radius: 4px; border: 1px solid #30363d; display: block; margin: 0 auto;"/></a> |
+
+*Note: Card 22 has two variations (Technical Integration and Testing) representing core agile verification steps.*
+
+---
+
+### Destruction Deck Catalog (18 Cards)
+
+| # | Card Name | Strategy / Action | Preview |
+| :-: | :--- | :--- | :--- |
+| **01** | **Request Tools and Permissions** | Setup | <a href="Cards/Destruction/01%20-%20REQUEST%20TOOLS%20AND%20PERMISSIONS.jpg"><img src="Cards/Destruction/01%20-%20REQUEST%20TOOLS%20AND%20PERMISSIONS.jpg" width="60" alt="Request Tools and Permissions" style="background-color: transparent; padding: 2px; border-radius: 4px; border: 1px solid #30363d; display: block; margin: 0 auto;"/></a> |
+| **02** | **Re-Teaming** | Structure | <a href="Cards/Destruction/02%20-%20RE-TEAMING.jpg"><img src="Cards/Destruction/02%20-%20RE-TEAMING.jpg" width="60" alt="Re-Teaming" style="background-color: transparent; padding: 2px; border-radius: 4px; border: 1px solid #30363d; display: block; margin: 0 auto;"/></a> |
+| **03** | **Buy a Solution** | Procurement | <a href="Cards/Destruction/03%20-%20BUY%20A%20SOLUTION.jpg"><img src="Cards/Destruction/03%20-%20BUY%20A%20SOLUTION.jpg" width="60" alt="Buy a Solution" style="background-color: transparent; padding: 2px; border-radius: 4px; border: 1px solid #30363d; display: block; margin: 0 auto;"/></a> |
+| **04** | **Try Everything** | Experimentation | <a href="Cards/Destruction/04%20-%20TRY%20EVERYTHING.jpg"><img src="Cards/Destruction/04%20-%20TRY%20EVERYTHING.jpg" width="60" alt="Try Everything" style="background-color: transparent; padding: 2px; border-radius: 4px; border: 1px solid #30363d; display: block; margin: 0 auto;"/></a> |
+| **05** | **Understand the Domain** | Analysis | <a href="Cards/Destruction/05%20-%20UNDERSTAND%20THE%20DOMAIN.jpg"><img src="Cards/Destruction/05%20-%20UNDERSTAND%20THE%20DOMAIN.jpg" width="60" alt="Understand the Domain" style="background-color: transparent; padding: 2px; border-radius: 4px; border: 1px solid #30363d; display: block; margin: 0 auto;"/></a> |
+| **06** | **Rely on Documentation** | Reference | <a href="Cards/Destruction/06%20-%20RELY%20ON%20DOCUMENTATION.jpg"><img src="Cards/Destruction/06%20-%20RELY%20ON%20DOCUMENTATION.jpg" width="60" alt="Rely on Documentation" style="background-color: transparent; padding: 2px; border-radius: 4px; border: 1px solid #30363d; display: block; margin: 0 auto;"/></a> |
+| **07** | **Get an Expert** | Team Support | <a href="Cards/Destruction/07%20-%20GET%20AN%20EXPERT.jpg"><img src="Cards/Destruction/07%20-%20GET%20AN%20EXPERT.jpg" width="60" alt="Get an Expert" style="background-color: transparent; padding: 2px; border-radius: 4px; border: 1px solid #30363d; display: block; margin: 0 auto;"/></a> |
+| **08** | **Do the Simplest Thing** | Minimization | <a href="Cards/Destruction/08%20-%20DO%20THE%20SIMPLEST%20THING.jpg"><img src="Cards/Destruction/08%20-%20DO%20THE%20SIMPLEST%20THING.jpg" width="60" alt="Do the Simplest Thing" style="background-color: transparent; padding: 2px; border-radius: 4px; border: 1px solid #30363d; display: block; margin: 0 auto;"/></a> |
+| **09** | **Proceed in Known Boundaries** | Scope Control | <a href="Cards/Destruction/09%20-%20PROCEED%20IN%20KNOWN%20BOUNDARIES.jpg"><img src="Cards/Destruction/09%20-%20PROCEED%20IN%20KNOWN%20BOUNDARIES.jpg" width="60" alt="Proceed in Known Boundaries" style="background-color: transparent; padding: 2px; border-radius: 4px; border: 1px solid #30363d; display: block; margin: 0 auto;"/></a> |
+| **10** | **Assign Responsibility** | Ownership | <a href="Cards/Destruction/10%20-%20ASSIGN%20RESPONSIBILITY.jpg"><img src="Cards/Destruction/10%20-%20ASSIGN%20RESPONSIBILITY.jpg" width="60" alt="Assign Responsibility" style="background-color: transparent; padding: 2px; border-radius: 4px; border: 1px solid #30363d; display: block; margin: 0 auto;"/></a> |
+| **11** | **Try Something** | Experimentation | <a href="Cards/Destruction/11%20-%20TRY%20SOMETHING.jpg"><img src="Cards/Destruction/11%20-%20TRY%20SOMETHING.jpg" width="60" alt="Try Something" style="background-color: transparent; padding: 2px; border-radius: 4px; border: 1px solid #30363d; display: block; margin: 0 auto;"/></a> |
+| **12** | **Mocking** | Engineering | <a href="Cards/Destruction/12%20-%20MOCKING.jpg"><img src="Cards/Destruction/12%20-%20MOCKING.jpg" width="60" alt="Mocking" style="background-color: transparent; padding: 2px; border-radius: 4px; border: 1px solid #30363d; display: block; margin: 0 auto;"/></a> |
+| **13** | **Splitting Requirements** | Decomposition | <a href="Cards/Destruction/13%20-%20SPLITTING%20REQUIREMENTS.jpg"><img src="Cards/Destruction/13%20-%20SPLITTING%20REQUIREMENTS.jpg" width="60" alt="Splitting Requirements" style="background-color: transparent; padding: 2px; border-radius: 4px; border: 1px solid #30363d; display: block; margin: 0 auto;"/></a> |
+| **14** | **Technical Spike** | Investigation | <a href="Cards/Destruction/14%20-%20TECHNICAL%20SPIKE.jpg"><img src="Cards/Destruction/14%20-%20TECHNICAL%20SPIKE.jpg" width="60" alt="Technical Spike" style="background-color: transparent; padding: 2px; border-radius: 4px; border: 1px solid #30363d; display: block; margin: 0 auto;"/></a> |
+| **15** | **Develop Skill** | Learning | <a href="Cards/Destruction/15%20-%20DEVELOP%20SKILL.jpg"><img src="Cards/Destruction/15%20-%20DEVELOP%20SKILL.jpg" width="60" alt="Develop Skill" style="background-color: transparent; padding: 2px; border-radius: 4px; border: 1px solid #30363d; display: block; margin: 0 auto;"/></a> |
+| **16** | **Just Do It** | Direct Action | <a href="Cards/Destruction/16%20-%20JUST%20DO%20IT.jpg"><img src="Cards/Destruction/16%20-%20JUST%20DO%20IT.jpg" width="60" alt="Just Do It" style="background-color: transparent; padding: 2px; border-radius: 4px; border: 1px solid #30363d; display: block; margin: 0 auto;"/></a> |
+| **17** | **Make Assumptions** | Risk Management | <a href="Cards/Destruction/17%20-%20MAKE%20ASSUMPTIONS.jpg"><img src="Cards/Destruction/17%20-%20MAKE%20ASSUMPTIONS.jpg" width="60" alt="Make Assumptions" style="background-color: transparent; padding: 2px; border-radius: 4px; border: 1px solid #30363d; display: block; margin: 0 auto;"/></a> |
+| **18** | **Attend Meetings** | Communication | <a href="Cards/Destruction/18%20-%20ATTEND%20MEETINGS.jpg"><img src="Cards/Destruction/18%20-%20ATTEND%20MEETINGS.jpg" width="60" alt="Attend Meetings" style="background-color: transparent; padding: 2px; border-radius: 4px; border: 1px solid #30363d; display: block; margin: 0 auto;"/></a> |
+
+---
+
+## How to Use the Decks
+
+The Dependency Discovery & Destruction Deck is designed to be played in teams (e.g., during PI Planning, Backlog Refinement, or Sprint Planning). Here is the recommended workflow to run the session:
+
+### Discovery Phase
+* **Teams of Two**: Split the team into pairs to foster discussion and psychological safety.
+* **Remove Unrelated Cards**: Go through the **Discovery Deck** cards. Remove any cards representing dependency categories that you definitely do not have.
+* **Cluster Remaining Cards**: Group the remaining cards into logical clusters (e.g., "Infrastructure & Tools", "External Vendors & Systems").
+* **Explain and Justify**: Have each pair explain why they kept the remaining cards and what dependencies they represent.
+* **Agile Coach as the "Bad Cop"**: The Agile Coach (or Scrum Master) should challenge the teams as they remove cards. There is no easy way out (e.g., just saying "we don't have any dependencies"). Teams must justify why they are removing cards to ensure no hidden blockers are overlooked.
+
+### Destruction Phase
+* **Find the Top 3 Cards**: For each previously defined dependency cluster, the team must search the **Destruction Deck** to find the top 3 strategy cards that best address or resolve that specific cluster.
+* **Define Action Items**: For at least one of the top 3 destruction strategies chosen, define concrete action items, assign an owner, and track them.
+
+---
+
+## Virtual Play (Miro Integration)
+
+You can run these ceremonies 100% virtually! In the `/Miro` directory, we have provided:
+* **[Miro Board Backup](Miro/Dependency%20Discovery%20Deck.rtb)**: A `.rtb` file that you can import directly into your Miro team account to get a pre-configured board with all cards.
+* **[Talktrack for Miro Board](Miro/Talktrack%20for%20Miro%20Board.mkv)**: An instructional video explaining how to configure, present, and run the dependency board virtually with your Agile teams.
+
+---
+
+## Physical Prints
+
+If your team works in a co-located or hybrid environment, nothing beats the tactile experience of physical cards. You can purchase professional, high-quality printed decks directly on Etsy:
+
+> [!TIP]
+> ### Get the Physical Deck
+> Visit our shop on Etsy: **[Dependency Discovery Deck on Etsy](https://agilegames.etsy.com/listing/1712190266)**
+
+---
 
 ## License
 
-The Dependency Discovery Deck is licensed under the GNU GENERAL PUBLIC LICENSE.
+The Dependency Discovery & Destruction Deck is licensed under the GNU GENERAL PUBLIC LICENSE. Feel free to copy, modify, and share.
 
 ## Contributing
 
-Contributions to the deck, such as new card ideas, design improvements, or bug fixes, are welcome! Please fork the repository, make your changes, and submit a pull request for review.
+Contributions to the deck (such as new card concepts, gameplay variants, translations, and board updates) are highly encouraged! 
+1. Fork this repository.
+2. Make your edits or add new concepts.
+3. Submit a Pull Request for review.
 
-## Feedback
+---
 
-If you have any feedback, suggestions, or questions regarding the Dependency Discovery Deck, feel free to open an issue on the repository or reach out to the maintainers directly.
+## Authors & Credits
 
-## Buy it
-
-Etsy: [Dependency Discovery Deck on Etsy](https://agilegames.etsy.com/listing/1712190266)
+The Dependency Discovery & Destruction Deck was created and is maintained by:
+* **[Carsten Lill](https://www.linkedin.com/in/carsten-lill-b9764622/)**
+* **[Nils Hyoma](https://www.linkedin.com/in/nils-hyoma-74a79244/)**
